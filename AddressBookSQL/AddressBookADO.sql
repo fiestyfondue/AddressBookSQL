@@ -47,3 +47,7 @@ SELECT COUNT(city) FROM ContactBook
 
 SELECT firstname FROM ContactBook
 ORDER BY city
+
+--UC9 -ability to identify each address book with name and type
+ALTER TABLE ContactBook ADD Name varchar(255) not null DEFAULT 'FriendsContacts', 
+TypeOf varchar(255) not null DEFAULT 'Friends';
