@@ -40,3 +40,10 @@ SELECT COUNT(*) FROM ContactBook
 WHERE city = 'Canada'
 
 SELECT COUNT(*) FROM ContactBook
+
+SELECT COUNT(state) FROM ContactBook
+
+SELECT COUNT(city) FROM ContactBook
+
+SELECT firstname FROM ContactBook
+ORDER BY city
