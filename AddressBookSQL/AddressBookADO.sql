@@ -29,3 +29,14 @@ DELETE FROM ContactBook
 WHERE firstname = 'Paesd' AND lastname='Srerar'
 
 SELECT * FROM ContactBook WHERE state='Punjab' and city='Delhi'
+
+INSERT INTO ContactBook(firstname,lastname,address,city,state,zip,phoneNumber,email)
+VALUES ('Tony','Stark','Round Street','New York','America',334394,646475470,'Avengersail@gmail.com'),
+('Wanda','Vision','Down Street','Vancover','Canada',487709,918966467,'Vitis6@gmail.com'),
+('Ramesh','Turban','St. Mathew Road','Regina','Canada',839320,882223422,'Allhhename@gmail.com'),
+('Pedro','Roar','Arthur street','Manchester','England',4232024,73724345,'al9urell@gmail.com');
+
+SELECT COUNT(*) FROM ContactBook
+WHERE city = 'Canada'
+
+SELECT COUNT(*) FROM ContactBook
