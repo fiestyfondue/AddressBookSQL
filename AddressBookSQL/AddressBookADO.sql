@@ -24,3 +24,8 @@ VALUES ('Harsh','Sinha','MR4 Road','Delhi','Punjab',384794,9847558470,'whatisema
 ('Paesd','Srerar','Asgard','ThorRoad','Space',438324,73454765,'SpaceIsReal@gmail.com');
 UPDATE ContactBook SET phoneNumber = 8827880778
 WHERE firstname = 'Aman' AND lastname= 'Patel'
+
+DELETE FROM ContactBook
+WHERE firstname = 'Paesd' AND lastname='Srerar'
+
+SELECT * FROM ContactBook WHERE state='Punjab' and city='Delhi'
